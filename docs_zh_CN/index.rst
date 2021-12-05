@@ -1,28 +1,28 @@
-Welcome to docs-example's documentation!
+欢迎来到 docs-example 的中文文档！
 =========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Get Started
+   :caption: 开始你的第一步
 
    get_started/introduction.md
    get_started/installation.md
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tutorials
+   :caption: 教程
 
    tutorials/how-to-say-hello.md
    tutorials/how-to-say-hi.md
 
 .. toctree::
-   :caption: Switch Language
+   :caption: 语言切换
 
    switch_language.md
 
 .. toctree::
    :maxdepth: 1
-   :caption: API Reference
+   :caption: 接口文档
 
    api.rst
 

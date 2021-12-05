@@ -52,6 +52,10 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+# This is also used if you do content translation via gettext catalogs.
+# Usually you set "language" from the command line for these cases.
+language = 'zh_CN'
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -70,15 +74,15 @@ html_theme_options = {
     'menu': [
         {
             'name': 'GitHub',
-            'url': 'https://github.com/zhouzaida/docs-example'
+            'url': 'https://github.com/open-mmlab/mmcv'
         },
         {
             'name':
-            'Docs',
+            '文档',
             'children': [
                 {
                     'name': 'MMCV',
-                    'url': 'https://mmcv.readthedocs.io/en/latest/',
+                    'url': 'https://mmcv.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MIM',
@@ -86,24 +90,25 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMAction2',
-                    'url': 'https://mmaction2.readthedocs.io/en/latest/',
+                    'url': 'https://mmaction2.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMClassification',
                     'url':
-                    'https://mmclassification.readthedocs.io/en/latest/',
+                    'https://mmclassification.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMDetection',
-                    'url': 'https://mmdetection.readthedocs.io/en/latest/',
+                    'url': 'https://mmdetection.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMDetection3D',
-                    'url': 'https://mmdetection3d.readthedocs.io/en/latest/',
+                    'url':
+                    'https://mmdetection3d.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMEditing',
-                    'url': 'https://mmediting.readthedocs.io/en/latest/',
+                    'url': 'https://mmediting.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMGeneration',
@@ -111,19 +116,20 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMOCR',
-                    'url': 'https://mmocr.readthedocs.io/en/latest/',
+                    'url': 'https://mmocr.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMPose',
-                    'url': 'https://mmpose.readthedocs.io/en/latest/',
+                    'url': 'https://mmpose.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMSegmentation',
-                    'url': 'https://mmsegmentation.readthedocs.io/en/latest/',
+                    'url':
+                    'https://mmsegmentation.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMTracking',
-                    'url': 'https://mmtracking.readthedocs.io/en/latest/',
+                    'url': 'https://mmtracking.readthedocs.io/zh_CN/latest/',
                 },
                 {
                     'name': 'MMFlow',
@@ -131,7 +137,7 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMFewShot',
-                    'url': 'https://mmfewshot.readthedocs.io/en/latest/',
+                    'url': 'https://mmfewshot.readthedocs.io/zh_CN/latest/',
                 },
             ]
         },
@@ -140,7 +146,7 @@ html_theme_options = {
             'OpenMMLab',
             'children': [
                 {
-                    'name': 'Homepage',
+                    'name': '主页',
                     'url': 'https://openmmlab.com/'
                 },
                 {
@@ -148,11 +154,11 @@ html_theme_options = {
                     'url': 'https://github.com/open-mmlab/'
                 },
                 {
-                    'name': 'Twitter',
+                    'name': '推特',
                     'url': 'https://twitter.com/OpenMMLab'
                 },
                 {
-                    'name': 'Zhihu',
+                    'name': '知乎',
                     'url': 'https://zhihu.com/people/openmmlab'
                 },
             ]
