@@ -14,7 +14,7 @@ import os
 import sys
 import pytorch_sphinx_theme
 
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +22,7 @@ project = 'docs-example'
 copyright = '2021, docs-example contributors'
 author = 'docs-example contributors'
 
-version_file = '../docs_example/version.py'
+version_file = '../../docs_example/version.py'
 with open(version_file, 'r') as f:
     exec(compile(f.read(), version_file, 'exec'))
 __version__ = locals()['__version__']
@@ -52,10 +52,6 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# This is also used if you do content translation via gettext catalogs.
-# Usually you set "language" from the command line for these cases.
-language = 'zh_CN'
-
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -74,15 +70,15 @@ html_theme_options = {
     'menu': [
         {
             'name': 'GitHub',
-            'url': 'https://github.com/open-mmlab/mmcv'
+            'url': 'https://github.com/zhouzaida/docs-example'
         },
         {
             'name':
-            '文档',
+            'Docs',
             'children': [
                 {
                     'name': 'MMCV',
-                    'url': 'https://mmcv.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmcv.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MIM',
@@ -90,25 +86,24 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMAction2',
-                    'url': 'https://mmaction2.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmaction2.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMClassification',
                     'url':
-                    'https://mmclassification.readthedocs.io/zh_CN/latest/',
+                    'https://mmclassification.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMDetection',
-                    'url': 'https://mmdetection.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmdetection.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMDetection3D',
-                    'url':
-                    'https://mmdetection3d.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmdetection3d.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMEditing',
-                    'url': 'https://mmediting.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmediting.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMGeneration',
@@ -116,20 +111,19 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMOCR',
-                    'url': 'https://mmocr.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmocr.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMPose',
-                    'url': 'https://mmpose.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmpose.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMSegmentation',
-                    'url':
-                    'https://mmsegmentation.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmsegmentation.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMTracking',
-                    'url': 'https://mmtracking.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmtracking.readthedocs.io/en/latest/',
                 },
                 {
                     'name': 'MMFlow',
@@ -137,7 +131,7 @@ html_theme_options = {
                 },
                 {
                     'name': 'MMFewShot',
-                    'url': 'https://mmfewshot.readthedocs.io/zh_CN/latest/',
+                    'url': 'https://mmfewshot.readthedocs.io/en/latest/',
                 },
             ]
         },
@@ -146,7 +140,7 @@ html_theme_options = {
             'OpenMMLab',
             'children': [
                 {
-                    'name': '主页',
+                    'name': 'Homepage',
                     'url': 'https://openmmlab.com/'
                 },
                 {
@@ -154,11 +148,11 @@ html_theme_options = {
                     'url': 'https://github.com/open-mmlab/'
                 },
                 {
-                    'name': '推特',
+                    'name': 'Twitter',
                     'url': 'https://twitter.com/OpenMMLab'
                 },
                 {
-                    'name': '知乎',
+                    'name': 'Zhihu',
                     'url': 'https://zhihu.com/people/openmmlab'
                 },
             ]
@@ -175,8 +169,4 @@ html_css_files = ['css/readthedocs.css']
 # -- Extension configuration -------------------------------------------------
 # Ignore >>> when copying code
 copybutton_prompt_text = r'>>> |\.\.\. '
-<<<<<<< HEAD
 copybutton_prompt_is_regexp = True
-=======
-copybutton_prompt_is_regexp = True
->>>>>>> 62bc9c4d749539a5f00bf1426ab69446373e9a97
