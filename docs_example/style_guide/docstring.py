@@ -29,17 +29,17 @@ class ClassDocstring:
 
     Sometimes we want to use formulas to represent some definitions, we can
     write them within lines like :math:`e^{i \pi}+1=0`. Or we can write it
-    between lines like::
+    between lines like.
 
     .. math::
         e^{i \pi}+1=0
 
     Note:
         Of course, we can also write the formula in block like
-        :math:`e^{i \pi}+1=0` or the following format::
+        :math:`e^{i \pi}+1=0` or the following format.
 
         .. math::
-        e^{i \pi}+1=0
+            e^{i \pi}+1=0
 
     To make it easier for users to get started quickly, we can give some
     introductory examples in the example block.
