@@ -14,7 +14,7 @@ import os
 import sys
 import pytorch_sphinx_theme
 
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../../'))
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +22,7 @@ project = 'docs-example'
 copyright = '2021, docs-example contributors'
 author = 'docs-example contributors'
 
-version_file = '../docs_example/version.py'
+version_file = '../../docs_example/version.py'
 with open(version_file, 'r') as f:
     exec(compile(f.read(), version_file, 'exec'))
 __version__ = locals()['__version__']
@@ -74,7 +74,7 @@ html_theme_options = {
     'menu': [
         {
             'name': 'GitHub',
-            'url': 'https://github.com/open-mmlab/mmcv'
+            'url': 'https://github.com/zhouzaida/docs-example'
         },
         {
             'name':
