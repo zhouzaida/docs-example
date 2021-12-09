@@ -175,8 +175,4 @@ html_css_files = ['css/readthedocs.css']
 # -- Extension configuration -------------------------------------------------
 # Ignore >>> when copying code
 copybutton_prompt_text = r'>>> |\.\.\. '
-<<<<<<< HEAD
 copybutton_prompt_is_regexp = True
-=======
-copybutton_prompt_is_regexp = True
->>>>>>> 62bc9c4d749539a5f00bf1426ab69446373e9a97
