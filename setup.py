@@ -1,6 +1,5 @@
 from setuptools import find_packages, setup  # type: ignore
 
-
 version_file = 'docs_example/version.py'
 
 

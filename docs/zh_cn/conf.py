@@ -12,6 +12,7 @@
 #
 import os
 import sys
+
 import pytorch_sphinx_theme
 
 sys.path.insert(0, os.path.abspath('../../'))
@@ -30,7 +31,6 @@ __version__ = locals()['__version__']
 version = __version__
 # The full version, including alpha/beta/rc tags
 release = __version__
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -61,7 +61,6 @@ language = 'zh_CN'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -78,7 +77,8 @@ html_theme_options = {
         },
     ],
     # Specify the language of shared menu
-    'menu_lang': 'cn',
+    'menu_lang':
+    'cn',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -91,4 +91,3 @@ html_css_files = ['css/readthedocs.css']
 # Ignore >>> when copying code
 copybutton_prompt_text = r'>>> |\.\.\. '
 copybutton_prompt_is_regexp = True
-
