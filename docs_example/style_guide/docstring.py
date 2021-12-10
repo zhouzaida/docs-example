@@ -2,7 +2,7 @@ from typing import Optional, Union
 
 
 class ClassDocstring:
-    """Summarize the function of the class in one sentence.
+    r"""Summarize the function of the class in one sentence.
 
     Describe the function of the class in a few sentences, including but not
     limited to what the class is and what it can do.
@@ -56,7 +56,7 @@ class ClassDocstring:
             None. Note that if the default value is None, then you need to add
             optional to the parameter type. If the description of a parameter
             is too long, just indent it with a new line.
-        arg3 (str): Of course, We can list some optional values wit the
+        arg3 (str): Of course, We can list some optional values with the
             following format. Defaults to ``item1``.
 
             - item1
@@ -86,7 +86,7 @@ class ClassDocstring:
 
     def method1(self, arg1: int, arg2: Union[str, list], arg3: dict) -> str:
         """Summarize the function of the method in one sentence.
-        
+
         Describe the function of the class in a few sentences. Of course,
         it is not required.
 
@@ -104,10 +104,10 @@ class ClassDocstring:
             str: Return the output.
         """
         return 'method1'
-    
+
     def method2(self, arg1: int, arg2: Union[str, list], arg3: dict) -> dict:
         """Summarize the function of the method in one sentence.
-        
+
         Describe the function of the class in a few sentences. Of course,
         it is not required.
 
