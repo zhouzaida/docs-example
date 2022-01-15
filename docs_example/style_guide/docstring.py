@@ -186,16 +186,6 @@ class ExampleClass:
             - key1: This is a shot description of the item.
             - key1: This is a shot description of the item.
 
-    If the class has public attributes, they may be documented here
-    in an ``Attributes`` section and follow the same formatting as a
-    function's ``Args`` section. Alternatively, attributes may be documented
-    inline with the attribute's declaration (see __init__ method below). Note
-    that the ``Attributes`` section is optional.
-
-    Attributes:
-        args1 (int): Description of `args1`.
-        args2 (:obj:`str`, optional): Description of `args2`.
-
     Note:
         Properties created with the ``@property`` decorator should be
         documented in the property's getter method.
@@ -207,6 +197,16 @@ class ExampleClass:
         italics. "double quotation marks" has no special meaning, but can be
         used to represent a string. The usage of `single backticks` is
         different from that in Markdown, so you should pay attention to it.
+
+    If the class has public attributes, they may be documented here
+    in an ``Attributes`` section and follow the same formatting as a
+    function's ``Args`` section. Alternatively, attributes may be documented
+    inline with the attribute's declaration (see __init__ method below). Note
+    that the ``Attributes`` section is optional.
+
+    Attributes:
+        args1 (int): Description of `args1`.
+        args2 (:obj:`str`, optional): Description of `args2`.
     """
     def __init__(self,
                  arg1: int,
