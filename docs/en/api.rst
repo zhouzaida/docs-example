@@ -5,7 +5,7 @@ example1
 
 example2
 --------
-.. automodule:: docs_example.example1
+.. automodule:: docs_example.example2
     :members:
 
 style guide
