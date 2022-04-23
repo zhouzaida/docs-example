@@ -133,7 +133,7 @@ class ExampleClass:
     If we want to quote a URL, then we can quote it like
     `OpenMMLab <https://github.com/open-mmlab>`_. Note that there needs to be a
     space between the title and the link, otherwise it will not render
-    successfully.
+    successfully. We can also quota a link like `OpenMMLab`_.
 
     Note:
         If the class has something important to remind the user, we can show
@@ -167,7 +167,9 @@ class ExampleClass:
         >>> obj = ClassDocstring(1, 'second parameter')
 
     Args:
-        arg1 (int): ``arg1`` is the first parameter.
+        arg1 (int): ``arg1`` is the first parameter. If we want to quote a link
+            to explain the argument, we can say that see more details at
+            `website`_.
         arg2 (str, optional): ``arg2`` is the second parameter. Defaults to
             None. Note that if the default value is None, then you need to add
             optional to the parameter type. If the description of a parameter
@@ -207,6 +209,11 @@ class ExampleClass:
     Attributes:
         args1 (int): Description of `args1`.
         args2 (:obj:`str`, optional): Description of `args2`.
+
+    .. _OpenMMLab:
+        https://github.com/open-mmlab
+    .. _website:
+        https://openmmlab.com/
     """
     def __init__(self,
                  arg1: int,
