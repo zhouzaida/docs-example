@@ -4,7 +4,7 @@ version_file = 'docs_example/version.py'
 
 
 def get_version():
-    with open(version_file, 'r') as f:
+    with open(version_file) as f:
         exec(compile(f.read(), version_file, 'exec'))
     return locals()['__version__']
 
