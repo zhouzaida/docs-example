@@ -46,6 +46,7 @@ extensions = [
     'sphinx_markdown_tables',
     'myst_parser',
     'sphinx_copybutton',
+    'sphinxcontrib.mermaid',
 ]  # yapf: disable
 
 

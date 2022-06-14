@@ -16,6 +16,12 @@
    tutorials/how-to-say-hi.md
 
 .. toctree::
+   :maxdepth: 2
+   :caption: 示例
+
+   examples/extension.md
+
+.. toctree::
    :caption: 语言切换
 
    switch_language.md
