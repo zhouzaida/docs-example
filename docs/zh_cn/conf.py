@@ -24,7 +24,7 @@ copyright = '2021, docs-example contributors'
 author = 'docs-example contributors'
 
 version_file = '../../docs_example/version.py'
-with open(version_file, 'r') as f:
+with open(version_file) as f:
     exec(compile(f.read(), version_file, 'exec'))
 __version__ = locals()['__version__']
 # The short X.Y version
