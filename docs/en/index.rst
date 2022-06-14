@@ -16,6 +16,12 @@ Welcome to docs-example's documentation!
    tutorials/how-to-say-hi.md
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Examples
+
+   examples/extension.md
+
+.. toctree::
    :caption: Switch Language
 
    switch_language.md
