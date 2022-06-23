@@ -30,7 +30,9 @@ Welcome to docs-example's documentation!
    :maxdepth: 1
    :caption: API Reference
 
-   api.rst
+   example1 <api/example1>
+   example2 <api/example2>
+   style_guide <api/style_guide>
 
 Indices and tables
 ====================
