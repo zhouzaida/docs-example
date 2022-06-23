@@ -12,4 +12,4 @@ cd docs/en
 make html
 ```
 
-After typing above commands, open the _build/html/index.html file and docs will be displayed.
+After typing above commands, open the \_build/html/index.html file and docs will be displayed.
